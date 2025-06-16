@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Casino Play NP</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Casino Play NP</h1>
+    </header>
+    <main>
+        <p>Este es un sitio web básico para tu casino online.</p>
+        <button id="btnJugar">¡Jugar!</button>
+        <div id="mensaje"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

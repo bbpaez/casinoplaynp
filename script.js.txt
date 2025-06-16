@@ -1,0 +1,10 @@
+document.getElementById('btnJugar').addEventListener('click', () => {
+    const mensajes = [
+        "¡Suerte en el juego!",
+        "¡Ganaste un premio!",
+        "¡Intentalo de nuevo!",
+        "¡Próxima ronda!"
+    ];
+    const mensaje = mensajes[Math.floor(Math.random() * mensajes.length)];
+    document.getElementById('mensaje').textContent = mensaje;
+});
